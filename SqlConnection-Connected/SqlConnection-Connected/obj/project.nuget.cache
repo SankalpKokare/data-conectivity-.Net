@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "mDfpRPwS8JBo99FDV+qcqDXQXPhl20xucnqIoqYA1vAO4WVPrgBQktS55yaDhG+FCzf/L8byIrw06B5HyqWoWw==",
+  "success": true,
+  "projectFilePath": "D:\\Github\\data-conectivity-.Net\\SqlConnection-Connected\\SqlConnection-Connected\\SqlConnection-Connected.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Sanka\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\7.0.1\\microsoft.extensions.logging.abstractions.7.0.1.nupkg.sha512",
+    "C:\\Users\\Sanka\\.nuget\\packages\\mysqlconnector\\2.3.3\\mysqlconnector.2.3.3.nupkg.sha512"
+  ],
+  "logs": []
+}
