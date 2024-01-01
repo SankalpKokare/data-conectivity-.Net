@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SqlConnection-Connected")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8b07b4319040b1d507ae85af7e83723d3d7856d9")]
 [assembly: System.Reflection.AssemblyProductAttribute("SqlConnection-Connected")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SqlConnection-Connected")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

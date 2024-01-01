@@ -41,9 +41,30 @@ namespace SqlConnection_Connected
 
         }
 
+
+        public static void updateCustomerByid(int id , String name)
+        {
+            using(MySqlConnection con = new MySqlConnection(cs))
+            {
+                con.Open();
+                
+                using(MySqlCommand cmd = new MySqlCommand())
+                {
+                    cmd.Connection =con;
+                    cmd.CommandText = "update customer set first_name=@name where customer_id=@id";
+                    cmd.Parameters.AddWithValue("id", id);
+                    cmd.Parameters.AddWithValue("name", name);
+                    cmd.ExecuteNonQuery();
+                    Console.WriteLine("Customer data updated");
+                }
+            }
+
+        }
+
         public static void Main()
         {
-            displayAllCustomer();
+            //  displayAllCustomer();
+            updateCustomerByid(7, "Ronaldo");
         }
     }
     
